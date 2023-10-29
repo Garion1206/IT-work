@@ -1,15 +1,21 @@
-    var chess = document.getElementsByClassName("chess") [0]
-    var context = chess.getContext("2d")    /*得到当前棋盘的上下文 绘制二维画板*/
-    context.strokeStyle="b9b9b9"
+// window.onload = function() {
+//     var chess = document.getElementsByClassName("chess")[0];
+//     var context = chess.getContext("2d");
+//     context.strokeStyle="#B9B9B9"
 
-    window.onload=function(){
-        drawChessBoard();
-    }
+//     window.onload=function(){
+//         drawChessBoard();
+//     }
+//     function drawChessBoard(){
+//         for(var i=0;i<15;i++){
+//             context.moveTo(15,15 + i * 30);
+//             context.lineTo(435,15 + i * 30);
+//             context.stroke();
 
-    function drawChessBoard(){
-        for(var i=0;i<15;i++) {
-            context.moveto(15,15+i*30);    /*设置横线起始点的坐标*/
-            context.lineto(15,15+i*30);    /*设置横线结束点的坐标*/
-            context.stroke();              /*连接两点*/
-        }
-    }
+//             context.moveTo(15 + i * 30 ,15);
+//             context.lineTo(15 + i * 30 ,435);
+//             context.stroke();
+
+//         }
+//     }
+// };
