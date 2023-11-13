@@ -6,4 +6,16 @@
     display: block;/*块级元素*/
     margin: 50px auto;/*居中*/
     box-shadow: 5px 5px 5px #b9b9b9,-2px -2px 2px #efefef ;/*阴影：x轴、y轴偏移量 宽度颜色*/
+    cursor: pointer;
+    }
+    
+    div{
+        text-align: center;
+    }
+
+    .restart{
+        padding: 10px 20px;
+        background-color: blueviolet;
+        border-radius: 5px;
+        color: white;
     }
