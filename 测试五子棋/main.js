@@ -24,9 +24,9 @@ btn.addEventListener("click",function(){
 function startGame() {
     //初始化棋盘数组
     for(var i=0; i<14; i++){
-       chessMapArr[i] = [];
-       for(var j=0; j<14; j++){
-          chessMapArr[i][j] = 0;
+        chessMapArr[i] = [];
+            for(var j=0; j<14; j++){
+                chessMapArr[i][j] = 0;
         }    
     }
     //清空棋盘
