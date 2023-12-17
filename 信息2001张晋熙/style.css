@@ -27,7 +27,9 @@ canvas{
 .container{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* 将弹性项垂直排列 */
+    align-items: center; 
+    /* 使子元素在水平方向上居中对齐 */
 }
 
 #title{
@@ -36,4 +38,16 @@ canvas{
 
 #chessboard{
     box-shadow: 5px 5px 5px #B9B9B9, -2px -2px 2px #EFEFEF;
+}
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#score{
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
 }
